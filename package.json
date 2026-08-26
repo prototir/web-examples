@@ -1,0 +1,14 @@
+{
+  "name": "prototir-web-examples",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Runnable examples for browser-native Prototir prototypes.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "check": "node tools/check.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

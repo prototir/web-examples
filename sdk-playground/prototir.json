@@ -1,0 +1,13 @@
+{
+  "name": "SDK playground",
+  "description": "Storage, seeded randomness, and managed AI in one small prototype.",
+  "type": "app",
+  "entry": "index.html",
+  "thumbnail": "auto",
+  "devices": ["desktop", "mobile"],
+  "orientation": "any",
+  "runtime": { "engine": "web", "profile": "standard" },
+  "modules": [],
+  "permissions": [],
+  "ai": { "mode": "managed" }
+}

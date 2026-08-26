@@ -1,0 +1,13 @@
+{
+  "name": "Three.js starter",
+  "description": "A responsive Three.js scene using a Prototir-hosted module.",
+  "type": "art",
+  "entry": "index.html",
+  "thumbnail": "auto",
+  "devices": ["desktop", "mobile"],
+  "orientation": "any",
+  "runtime": { "engine": "web", "profile": "standard" },
+  "modules": ["three@0.170.0"],
+  "permissions": [],
+  "ai": { "mode": "disabled" }
+}

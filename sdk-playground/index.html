@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>SDK playground</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.prototir.com/sdk/v0.1.0/prototir.js"></script>
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <main>
+      <header><p>Prototir SDK</p><h1>Capability playground</h1></header>
+      <section><h2>Persistent visits</h2><strong id="visits">Loading…</strong></section>
+      <section><h2>Seeded daily value</h2><strong id="daily">—</strong></section>
+      <section>
+        <h2>Managed AI</h2>
+        <button id="generate" type="button">Generate a quest hook</button>
+        <p id="result" aria-live="polite">Requires a signed-in player and available AI allowance.</p>
+      </section>
+    </main>
+  </body>
+</html>

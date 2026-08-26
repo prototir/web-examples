@@ -1,0 +1,13 @@
+{
+  "name": "Web SDK starter",
+  "description": "A small responsive counter using Prototir events and scores.",
+  "type": "game",
+  "entry": "index.html",
+  "thumbnail": "auto",
+  "devices": ["desktop", "mobile"],
+  "orientation": "any",
+  "runtime": { "engine": "web", "profile": "standard" },
+  "modules": [],
+  "permissions": [],
+  "ai": { "mode": "disabled" }
+}
