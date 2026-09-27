@@ -17,7 +17,7 @@ Small, upload-ready examples for browser-native prototypes on
 3. Upload the ZIP as a new prototype.
 4. Test desktop/mobile input, resize, fullscreen, Escape, and any SDK feature used by the example.
 
-The examples load Web SDK `v0.1.0` from the immutable Prototir CDN. The Three.js example declares
+The examples load the current Web SDK through the sandbox's `/prototir.js` route. The Three.js example declares
 `three@0.170.0` in `prototir.json`; Prototir injects its import map during upload, so opening that
 example directly from disk is not equivalent to playing the uploaded bundle.
 
