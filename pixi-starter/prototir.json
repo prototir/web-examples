@@ -1,0 +1,13 @@
+{
+  "name": "PixiJS starter",
+  "description": "Draggable shapes with PixiJS 8 using a Prototir-hosted module.",
+  "type": "art",
+  "entry": "index.html",
+  "thumbnail": "auto",
+  "devices": ["desktop", "mobile"],
+  "orientation": "any",
+  "runtime": { "engine": "web", "profile": "standard" },
+  "modules": ["pixi@8.6.0"],
+  "permissions": [],
+  "ai": { "mode": "disabled" }
+}

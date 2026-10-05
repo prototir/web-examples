@@ -10,10 +10,20 @@ const examples = readdirSync(root, { withFileTypes: true })
   .map((entry) => entry.name)
   .sort();
 
-assert.deepEqual(examples, ['sdk-playground', 'starter', 'three-starter']);
+assert.deepEqual(examples, [
+  'babylon-vite-starter',
+  'phaser-starter',
+  'pixi-starter',
+  'sdk-playground',
+  'starter',
+  'three-starter'
+]);
 for (const name of examples) {
   const directory = join(root, name);
-  const manifestPath = join(directory, 'prototir.json');
+  // A built example (it has a package.json) keeps its manifest in public/, which the build copies
+  // to the root of the uploaded folder; the others are uploaded as they are.
+  const built = existsSync(join(directory, 'package.json'));
+  const manifestPath = join(directory, built ? 'public' : '', 'prototir.json');
   assert.ok(existsSync(manifestPath), `${name} is missing prototir.json`);
   const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
   assert.equal(manifest.runtime?.engine, 'web', `${name} must declare the Web runtime`);

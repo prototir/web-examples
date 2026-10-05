@@ -1,0 +1,13 @@
+{
+  "name": "Phaser starter",
+  "description": "A small Phaser 4 game using a Prototir-hosted module: tap the falling orbs.",
+  "type": "game",
+  "entry": "index.html",
+  "thumbnail": "auto",
+  "devices": ["desktop", "mobile"],
+  "orientation": "any",
+  "runtime": { "engine": "web", "profile": "standard" },
+  "modules": ["phaser@4.2.1"],
+  "permissions": [],
+  "ai": { "mode": "disabled" }
+}

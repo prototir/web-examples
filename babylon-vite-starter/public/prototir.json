@@ -1,0 +1,13 @@
+{
+  "name": "Babylon.js starter",
+  "description": "A Babylon.js scene built with Vite, using the Prototir Web SDK from npm.",
+  "type": "art",
+  "entry": "index.html",
+  "thumbnail": "auto",
+  "devices": ["desktop", "mobile"],
+  "orientation": "any",
+  "runtime": { "engine": "web", "profile": "standard" },
+  "modules": [],
+  "permissions": [],
+  "ai": { "mode": "disabled" }
+}
